@@ -27,10 +27,10 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">[Name] | Virtual Assistant • Business Analyst • IT Support</h1>
+            <h1 class="hero-title">[YOUR_NAME] | Virtual Assistant • Business Analyst • IT Support</h1>
             <p class="hero-subtitle">Streamlining operations, analyzing performance, and managing technical workflows for modern businesses.</p>
             <p class="hero-tagline">Bridging operational support, data insights, and IT administration.</p>
-            <p class="hero-location">[City, Country] (Available for Global Remote Work)</p>
+            <p class="hero-location">[YOUR_CITY, COUNTRY] (Available for Global Remote Work)</p>
             <div class="hero-buttons">
                 <a href="#contact" class="btn btn-primary">Get in Touch</a>
                 <a href="#projects" class="btn btn-secondary">View Projects</a>
@@ -159,6 +159,7 @@
                             <div class="project-tools">
                                 <span class="project-tool">Google Workspace</span>
                                 <span class="project-tool">Microsoft Excel</span>
+                                <span class="project-tool">Google Sheets</span>
                                 <span class="project-tool">WordPress</span>
                             </div>
                         </div>
@@ -219,7 +220,8 @@
                                 <span class="project-tool">Microsoft 365 (Outlook)</span>
                                 <span class="project-tool">Zoom</span>
                                 <span class="project-tool">Slack</span>
-                                <span class="project-tool">Canva</span>
+                                <span class="project-tool">Calendly</span>
+                                <span class="project-tool">Zapier</span>
                             </div>
                         </div>
                         <div class="project-section">
@@ -240,11 +242,11 @@
                     <h3>Contact Information</h3>
                     <div class="contact-item">
                         <span class="contact-label">Email:</span>
-                        <a href="mailto:[your.email@example.com]" class="contact-link">[your.email@example.com]</a>
+                        <a href="mailto:[YOUR_EMAIL_HERE]" class="contact-link">[YOUR_EMAIL_HERE]</a>
                     </div>
                     <div class="contact-item">
                         <span class="contact-label">LinkedIn:</span>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">linkedin.com/in/yourprofile</a>
+                        <a href="https://linkedin.com/in/[YOUR_LINKEDIN_USERNAME]" target="_blank" class="contact-link">linkedin.com/in/[YOUR_LINKEDIN_USERNAME]</a>
                     </div>
                     <div class="contact-item">
                         <span class="contact-label">GitHub:</span>
@@ -255,7 +257,7 @@
                         <p>Open for Freelance Contracts, Retainer Roles, and Full-time Remote Opportunities.</p>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
@@ -280,7 +282,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 [Name] Professional Portfolio. All rights reserved.</p>
+            <p>&copy; 2024 [YOUR_NAME] Professional Portfolio. All rights reserved.</p>
             <p class="footer-tagline">Virtual Assistant • Business Analyst • IT Support</p>
         </div>
     </footer>
@@ -302,9 +304,9 @@
         });
 
         document.getElementById('contactForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            e.target.reset();
+            // Form will be submitted to Formspree
+            // If using Formspree, the form will handle submission automatically
+            // You can add custom handling here if needed
         });
     </script>
 </body>
