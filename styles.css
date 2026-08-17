@@ -447,15 +447,6 @@ section {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-
-.project-image {
-    background-color: var(--bg-base);
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
     position: relative;
 }
 
