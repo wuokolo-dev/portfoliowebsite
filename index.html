@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio | Virtual Assistance | Business Analysis | Tech Operations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">Portfolio</div>
+            <a href="#home" class="nav-logo">Portfolio</a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#roles" class="nav-link">Roles</a></li>
@@ -27,13 +30,22 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Jeremiah Z. Wuokolo | Virtual Assistance | Business Analysis | Tech Operations</h1>
-            <p class="hero-subtitle">Streamlining operations, analyzing performance, and managing technical workflows for modern businesses.</p>
-            <p class="hero-tagline">Bridging operational support, data insights, and tech operations.</p>
-            <p class="hero-location">Gwalior, India (Available for Global Remote Work)</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            <div class="hero-text">
+                <h1 class="hero-title">Jeremiah Z. Wuokolo</h1>
+                <p class="hero-subtitle">Virtual Assistance | Business Analysis | Tech Operations</p>
+                <p class="hero-tagline">Streamlining operations, analyzing performance, and managing technical workflows for modern businesses.</p>
+                <p class="hero-location">Gwalior, India (Available for Global Remote Work)</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <div class="hero-avatar-placeholder">
+                        Profile Photo
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -42,17 +54,17 @@
         <div class="container">
             <h2 class="section-title">Core Roles & Specializations</h2>
             <div class="roles-grid">
-                <div class="role-card">
+                <div class="role-card card">
                     <div class="role-icon">🎯</div>
                     <h3 class="role-title">Virtual Assistant</h3>
                     <p class="role-description">Executive administration, calendar and inbox control, remote workflow automation, and client communication.</p>
                 </div>
-                <div class="role-card">
+                <div class="role-card card">
                     <div class="role-icon">📊</div>
                     <h3 class="role-title">Business Analyst</h3>
                     <p class="role-description">Operational process mapping, requirements gathering, dashboard creation, and data-driven reporting.</p>
                 </div>
-                <div class="role-card">
+                <div class="role-card card">
                     <div class="role-icon">💻</div>
                     <h3 class="role-title">Tech Operations</h3>
                     <p class="role-description">SaaS user provisioning, security/access management, software platform integration, and technical operations optimization.</p>
@@ -77,27 +89,27 @@
         <div class="container">
             <h2 class="section-title">Services Offered</h2>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card card">
                     <h3 class="service-title">Customer Service & Support</h3>
                     <p class="service-description">Multichannel ticket handling, user inquiries, empathetic resolution, and client onboarding.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card card">
                     <h3 class="service-title">Data Entry & Analytics</h3>
                     <p class="service-description">Data verification, database updates, spreadsheet maintenance, and business performance tracking.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card card">
                     <h3 class="service-title">Social Media & Community Assistance</h3>
                     <p class="service-description">Community engagement, comment moderation, audience interaction, and post scheduling.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card card">
                     <h3 class="service-title">Research & Business Intelligence</h3>
                     <p class="service-description">Comprehensive web research, competitor analysis, data aggregation, and structured reporting.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card card">
                     <h3 class="service-title">Email, Calendar & Admin Operations</h3>
                     <p class="service-description">Inbox organization, priority filtering, executive scheduling, draft composition, and SOP creation.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card card">
                     <h3 class="service-title">Tech Administration & Support</h3>
                     <p class="service-description">User access control management, SaaS onboarding/offboarding, basic web administration, and password security management.</p>
                 </div>
@@ -109,7 +121,7 @@
         <div class="container">
             <h2 class="section-title">Tools & Tech Stack Mastered</h2>
             <div class="tools-grid">
-                <div class="tool-category">
+                <div class="tool-category card">
                     <h3 class="tool-category-title">Communication & Community</h3>
                     <div class="tool-tags">
                         <span class="tool-tag">Slack</span>
@@ -117,14 +129,14 @@
                         <span class="tool-tag">Microsoft Teams</span>
                     </div>
                 </div>
-                <div class="tool-category">
+                <div class="tool-category card">
                     <h3 class="tool-category-title">Productivity & Docs</h3>
                     <div class="tool-tags">
                         <span class="tool-tag">Google Workspace</span>
                         <span class="tool-tag">Microsoft 365</span>
                     </div>
                 </div>
-                <div class="tool-category">
+                <div class="tool-category card">
                     <h3 class="tool-category-title">Creativity, Web & Admin</h3>
                     <div class="tool-tags">
                         <span class="tool-tag">Canva</span>
@@ -141,11 +153,16 @@
             <h2 class="section-title">Portfolio Project Showcase</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="project-title">E-Commerce Operations & Performance Dashboard</h3>
-                        <span class="project-domain">Business Analysis & E-Commerce Support</span>
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            Dashboard Preview
+                        </div>
                     </div>
                     <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">E-Commerce Operations & Performance Dashboard</h3>
+                            <span class="project-domain">Business Analysis & E-Commerce Support</span>
+                        </div>
                         <div class="project-section">
                             <h4 class="project-section-title">Challenge</h4>
                             <p class="project-section-text">A growing e-commerce business was struggling with unorganized order data and lacked visibility into weekly sales trends and customer inquiry categories.</p>
@@ -171,11 +188,16 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="project-title">Remote Team Onboarding & Tech Access Management SOP</h3>
-                        <span class="project-domain">Tech Operations & Virtual Assistance</span>
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            SOP Document Preview
+                        </div>
                     </div>
                     <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Remote Team Onboarding & Tech Access Management SOP</h3>
+                            <span class="project-domain">Tech Operations & Virtual Assistance</span>
+                        </div>
                         <div class="project-section">
                             <h4 class="project-section-title">Challenge</h4>
                             <p class="project-section-text">A digital marketing agency had an inconsistent onboarding process, leading to delayed account provisioning and security risks regarding shared passwords.</p>
@@ -201,11 +223,16 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="project-title">Client Communications & Calendar Automation Workflow</h3>
-                        <span class="project-domain">Executive Virtual Assistance & Customer Service</span>
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            Workflow Automation Preview
+                        </div>
                     </div>
                     <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Client Communications & Calendar Automation Workflow</h3>
+                            <span class="project-domain">Executive Virtual Assistance & Customer Service</span>
+                        </div>
                         <div class="project-section">
                             <h4 class="project-section-title">Challenge</h4>
                             <p class="project-section-text">An executive in business services spent over 15 hours a week managing high-volume email traffic and scheduling conflicts across multiple time zones.</p>
@@ -261,19 +288,19 @@
                     <input type="hidden" name="_subject" value="Portfolio Contact Form Submission">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" required>
+                        <input type="text" id="subject" name="subject" required placeholder="How can I help you?">
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
